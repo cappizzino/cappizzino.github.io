@@ -46,7 +46,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
 
-          editUrl: 'https://github.com/openswarm-eu/openswarm-eu.github.io/tree/master',
+          // editUrl: 'https://github.com/openswarm-eu/openswarm-eu.github.io/tree/master',
 
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -72,7 +72,7 @@ const config: Config = {
             xslt: true,
           },
 
-          editUrl: 'https://github.com/openswarm-eu/openswarm-eu.github.io/tree/master',
+          // editUrl: 'https://github.com/openswarm-eu/openswarm-eu.github.io/tree/master',
 
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
@@ -132,59 +132,55 @@ const config: Config = {
         },
       ],
     },
-    // footer: {
-    //   style: 'dark',
-    //   links: [
-    //     {
-    //       title: 'Shortcuts',
-    //       items: [
-    //         {
-    //           label: 'Installation',
-    //           to: '/docs/installation',
-    //         },
-    //         {
-    //           label: 'API',
-    //           to: '/docs/api',
-    //         },
-    //         {
-    //           label: 'Simulation',
-    //           to: '/docs/simulations',
-    //         }
-    //       ],
-    //     },
-    //     {
-    //       title: 'More',
-    //       items: [
-    //         {
-    //           label: 'GitHub',
-    //           href: 'https://github.com/openswarm-eu',
-    //         },
-    //         {
-    //           label: 'OpenSwarm',
-    //           href: 'https://openswarm.eu',
-    //         }
-    //       ],
-    //     },
-    //     {
-    //       title: 'Ask the developers',
-    //       items: [
-    //         {
-    //           label: 'Github Discussions',
-    //           href: 'https://github.com/orgs/ctu-mrs/discussions',
-    //         },
-    //         {
-    //           label: 'Github Issues',
-    //           href: 'https://github.com/ctu-mrs/mrs_uav_system/issues',
-    //         },
-    //         {
-    //           label: 'Discourt',
-    //           href: 'http://google.com',
-    //         }
-    //       ],
-    //     },
-    //   ],
-    //   copyright: `Copyright © ${new Date().getFullYear()} CTU MRS, Inc. Built with Docusaurus.`,
-    // },
+    footer: {
+      style: 'dark',
+      links: [
+        // {
+        //   title: 'Shortcuts',
+        //   items: [
+        //     {
+        //       label: 'Installation',
+        //       to: '/docs/installation',
+        //     },
+        //     {
+        //       label: 'API',
+        //       to: '/docs/api',
+        //     },
+        //     {
+        //       label: 'Simulation',
+        //       to: '/docs/simulations',
+        //     }
+        //   ],
+        // },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/openswarm-eu',
+        //     },
+        //     {
+        //       label: 'OpenSwarm',
+        //       href: 'https://openswarm.eu',
+        //     }
+        //   ],
+        // },
+        {
+          title: 'Ask the developers',
+          items: [
+            {
+              label: 'Ingeniarius',
+              href: 'https://ingeniarius.pt',
+            },
+            {
+              label: 'OpenSwarm GitHub Team',
+              href: 'https://github.com/orgs/openswarm-eu/people',
+            }
+          ],
+        },
+      ],
+      // copyright: `Copyright © ${new Date().getFullYear()} CTU MRS, Inc. Built with Docusaurus.`,
+    },
     docs: {
       sidebar: {
         autoCollapseCategories: true,

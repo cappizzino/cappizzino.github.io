@@ -2,7 +2,7 @@
 title: Non-Codebase
 ---
 
-# Code-based
+# No Codebase
 
 import DocCardList from '@theme/DocCardList';
 

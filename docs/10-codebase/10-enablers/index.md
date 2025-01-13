@@ -6,4 +6,3 @@ description: Enablers
 
 # Enablers
 
-ROS is ...

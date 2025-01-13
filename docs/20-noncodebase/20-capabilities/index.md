@@ -5,5 +5,3 @@ description: Capabilities
 ---
 
 # Capabilities
-
-ROS is a....
