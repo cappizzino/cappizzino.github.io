@@ -13,4 +13,4 @@ description: ROS simulator.
 * **Task**: T5.1
 * **Responsible**: Micael Couceiro
 
-<Button label="🔗 openswarm-eu/mrs_uav_gazebo_simulation repository" link="https://github.com/openswarm-eu/mrs_uav_gazebo_simulation" block /><br />
+<Button label="🔗 openswarm-eu/mrs_openswarm_simulation repository" link="https://github.com/openswarm-eu/mrs_openswarm_simulation" block /><br />

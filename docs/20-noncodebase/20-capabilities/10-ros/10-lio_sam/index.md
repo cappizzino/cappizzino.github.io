@@ -13,4 +13,4 @@ description: Single-robot SLAM.
 * **Task**: T5.1
 * **Responsible**: Micael Couceiro
 
-<Button label="🔗 openswarm-eu/lio-sam repository" link="https://github.com/openswarm-eu/lio-sam" block /><br />
+<Button label="🔗 openswarm-eu/dcl-lio-sam repository" link="https://github.com/openswarm-eu/dcl-lio-sam" block /><br />

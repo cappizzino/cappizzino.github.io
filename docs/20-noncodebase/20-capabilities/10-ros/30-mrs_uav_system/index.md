@@ -13,4 +13,4 @@ description: Full multi-UAV architecture.
 * **Task**: T5.1
 * **Responsible**: Micael Couceiro
 
-<Button label="🔗 openswarm-eu/mrs_uav_system repository" link="https://github.com/openswarm-eu/mrs_uav_system" block /><br />
+<Button label="🔗 openswarm-eu/mrs_openswarm_utils repository" link="https://github.com/openswarm-eu/mrs_openswarm_utils" block /><br />
