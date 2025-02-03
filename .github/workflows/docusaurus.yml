@@ -43,17 +43,13 @@ jobs:
         run: yarn add --frozen-lockfile --non-interactive remark-math@6 rehype-katex@7 @aldridged/docusaurus-plugin-lunr docusaurus-lunr-search
       - name: Build
         run: yarn build
-      - name: Debug - List Symlinks
-        run: find build -type l -ls
-      - name: Remove Symlinks
-        run: find build -type l -exec rm -f {} \;
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: build
+          path: .
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
