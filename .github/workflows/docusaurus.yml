@@ -57,6 +57,15 @@ jobs:
           # Upload entire repository
           name: github-pages
           path: build
+      - name: Debug - Download Artifact Before Deployment
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: debug-build
+      - name: List Extracted Files
+        run: ls -la debug-build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          verbose: true
