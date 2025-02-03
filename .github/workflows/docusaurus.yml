@@ -43,6 +43,12 @@ jobs:
         run: yarn add --frozen-lockfile --non-interactive remark-math@6 rehype-katex@7 @aldridged/docusaurus-plugin-lunr docusaurus-lunr-search
       - name: Build
         run: yarn build
+      - name: Remove Symlinks (if any)  # <-- Add this step here
+        run: find build -type l -exec rm -f {} \;
+      - name: Debug - Check Build Size  # <-- Optional: Check size before uploading
+        run: du -sh build
+      - name: Fix File Permissions  # <-- Optional: Fix permissions
+        run: chmod -R 755 build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
