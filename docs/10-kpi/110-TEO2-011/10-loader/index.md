@@ -51,13 +51,51 @@ The odometry messages from LIO-SAM are converted into a sequence of `PoseStamped
 
 ### 1. Position A
 
-### 1. Position B
+<div class="sideBySide">
 
----
-## KPI Calculation
+<div class="image">
+  ![110_bag_1v_bag_rviz](img/bag_1v_bag_rviz.png )
+</div>
+
+<div class="image">
+  ![110_bag_1v.bag](img/bag_1v.bag.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Max Deviation      | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose A    |     0.175    | 0.496               | 0.250      | ✅         |
+</p>
+</div>
+
+</div>
+
+### 2. Position B
+
+<div class="sideBySide">
+
+<div class="image">
+  ![110_bag_2v_bag_rviz](img/bag_2v_bag_rviz.png )
+</div>
+
+<div class="image">
+  ![110_bag_2v.bag](img/bag_2v.bag.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Max Deviation      | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose B    |     0.161    | 0.439              | 0.250      | ✅         |
+</p>
+</div>
+
+</div>
 
 ---
 ## Conclusion
+The deviation analysis has provided clear insight into the path-following fidelity of the robot under the current localisation and navigation configuration. The results serve as an objective metric to guide further tuning and system optimization efforts, particularly to ensure consistent KPI compliance across diverse scenarios.
 
 ---
 import DocCardList from '@theme/DocCardList';

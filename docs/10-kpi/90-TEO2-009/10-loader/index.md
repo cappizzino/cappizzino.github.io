@@ -16,7 +16,7 @@ This test was conducted within a ROS Noetic environment utilizing Move Base Flex
 ### 2. Environment Setup
 - **Operating System:** Ubuntu 20.04  
 - **ROS Version:** Noetic  
-- **Robot Framework:** Move Base Flex (MBF)  
+- **Navigation Framework:** Move Base Flex (MBF)  
 - **Planner Plugin:** Global Planner
 
 ### 3. Procedure
@@ -53,8 +53,85 @@ Record the data to a bag file for post-processing and KPI evaluation.
 ---
 ## Results
 
----
-## KPI Calculation
+<div class="sideBySide">
+
+<div class="image">
+  ![009_pose_A](img/pose_A.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Standard Deviation | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose A    |     99    | 12.1               | 250      | ✅         |
+</p>
+</div>
+
+</div>
+
+<div class="sideBySide">
+
+<div class="image">
+  ![009_pose_B](img/pose_B.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Standard Deviation | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose B    |     91    | 29.4               | 250      | ✅         |
+</p>
+</div>
+
+</div>
+
+<div class="sideBySide">
+
+<div class="image">
+  ![009_pose_C](img/pose_C.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Standard Deviation | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose C    |     93    | 18.8               | 250      | ✅         |
+</p>
+</div>
+
+</div>
+
+<div class="sideBySide">
+
+<div class="image">
+  ![009_pose_D](img/pose_D.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Standard Deviation | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose D    |     110    | 16.4               | 250      | ✅         |
+</p>
+</div>
+
+</div>
+
+<div class="sideBySide">
+
+<div class="image">
+  ![009_pose_E](img/pose_E.png )
+</div>
+
+<div class="text">
+<p>
+| Pose      | Mean (ms) | Standard Deviation | Criteria | Evaluation |
+|-----------|-----------|--------------------|----------|------------|
+| Pose E    |     117    | 31.6               | 250      | ✅         |
+</p>
+</div>
+
+</div>
 
 ---
 ## Conclusion
