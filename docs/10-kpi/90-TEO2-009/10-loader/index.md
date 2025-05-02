@@ -1,7 +1,7 @@
 ---
-title: Telehandler
-pagination_label: Telehandler
-description: Telehandler
+title: Loader
+pagination_label: Loader
+description: Loader
 ---
 
 # KPI Analysis Report
