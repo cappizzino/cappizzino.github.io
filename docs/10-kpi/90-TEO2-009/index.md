@@ -6,7 +6,7 @@ description: TEO2-009
 
 # TEO2-009
 
-# 📊 KPI Evaluation: Optimal Path between two points computation
+# 📊 KPI Evaluation: Optimal Path between Two Points computation
 
 ## 📌 KPI Objective
 
