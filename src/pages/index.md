@@ -9,11 +9,11 @@ darkModeImage="./img/mrs_f4f_large_dark.png"
 
 <div class="sideBySide">
 
-<div class="text">
+<!-- <div class="text">
 <p>
 The aim of this page is to provide the...
 </p>
-</div>
+</div> -->
 
 <div class="image">
   ![UAV image](img/image-24.png)
