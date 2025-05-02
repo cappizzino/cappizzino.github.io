@@ -7,20 +7,20 @@ import rehypeKatex from 'rehype-katex';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'OpenSwarm Documentation',
-  tagline: 'OpenSwarm Documentation and more',
+  title: 'Fortis Documentation',
+  tagline: 'Fortis Documentation and more',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://openswarm-eu.github.io',
+  url: 'https://cappizzino.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'openswarm-eu', // Usually your GitHub org/user name.
-  projectName: 'openswarmeu', // Usually your repo name.
+  organizationName: 'Fortis', // Usually your GitHub org/user name.
+  projectName: 'fortis', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -46,7 +46,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
 
-          // editUrl: 'https://github.com/openswarm-eu/openswarm-eu.github.io/tree/master',
+          // editUrl: 'https://github.com',
 
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -72,7 +72,7 @@ const config: Config = {
             xslt: true,
           },
 
-          // editUrl: 'https://github.com/openswarm-eu/openswarm-eu.github.io/tree/master',
+          // editUrl: 'https://github.com',
 
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
@@ -98,13 +98,13 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/OpenSwarm-logo.png',
+    image: 'img/FORTIS1.png',
     navbar: {
-      title: 'OpenSwarm',
+      title: 'Fortis',
       logo: {
-        alt: 'OpenSwarm Logo',
-        src: 'img/openswarm_logo.png',
-        srcDark: 'img/openswarm_logo.png', // Dark mode logo
+        alt: 'Fortis Logo',
+        src: 'img/FORTIS1.png',
+        srcDark: 'img/FORTIS1.png', // Dark mode logo
       },
       items: [
         {
@@ -121,13 +121,13 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/openswarm-eu',
+          href: 'https://github.com/cappizzino',
           label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://openswarm.eu',
-          label: 'OpenSwarm',
+          href: 'https://fortis-project.eu',
+          label: 'Fortis',
           position: 'right',
         },
       ],
@@ -157,11 +157,11 @@ const config: Config = {
         //   items: [
         //     {
         //       label: 'GitHub',
-        //       href: 'https://github.com/openswarm-eu',
+        //       href: 'https://github.com',
         //     },
         //     {
-        //       label: 'OpenSwarm',
-        //       href: 'https://openswarm.eu',
+        //       label: 'Fortis',
+        //       href: 'fortis-project.eu',
         //     }
         //   ],
         // },
@@ -173,8 +173,8 @@ const config: Config = {
               href: 'https://ingeniarius.pt',
             },
             {
-              label: 'OpenSwarm GitHub Team',
-              href: 'https://github.com/orgs/openswarm-eu/people',
+              label: 'Fortis GitHub Team',
+              href: 'https://github.com',
             }
           ],
         },

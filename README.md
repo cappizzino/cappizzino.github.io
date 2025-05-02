@@ -1,4 +1,4 @@
-# Documentation at [https://openswarm-eu.github.io/](https://openswarm-eu.github.io/)
+# Documentation
 Runs on Docusaurus v3.6.0.
 
 # How to run locally
@@ -15,7 +15,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.40.1/install.sh | bash
 ## Run
 
 ```bash
-cd openswarm-eu.github.io && git pull
+cd name.github.io && git pull
 npm run start
 ```
 

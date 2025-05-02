@@ -5,13 +5,13 @@ lightModeImage="./img/mrs_f4f_large_light.png"
 darkModeImage="./img/mrs_f4f_large_dark.png"
 /> -->
 
-<h1>OpenSwarm Documentation</h1>
+<h1>Fortis Documentation</h1>
 
 <div class="sideBySide">
 
 <div class="text">
 <p>
-The aim of this page is to provide the foundation of the OpenSwarm implementation with corresponding documentation. The core technologies are based on three scientific pillars: orchestrating collaborative smart nodes, collaborative energy-aware AI, and energy-aware swarm programming. Each pillar addresses a different scientific objective, each task a different aspect thereof.
+The aim of this page is to provide the...
 </p>
 </div>
 
