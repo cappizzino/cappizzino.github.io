@@ -7,78 +7,72 @@ import rehypeKatex from 'rehype-katex';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Fortis Documentation',
-  tagline: 'Fortis Documentation and more',
-  favicon: 'img/favicon.ico',
+  // ---- Site identity ----
+  title: 'Carlos A P Pizzino',
+  tagline: 'Robotics Developer • Researcher (ROS, C++/Python)',
+  favicon: 'img/robot.ico',
 
-  // Set the production url of your site here
+  // ---- Deployment (GitHub Pages user site) ----
+  // For a user site repo: https://<username>.github.io with baseUrl '/'
   url: 'https://cappizzino.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Fortis', // Usually your GitHub org/user name.
-  projectName: 'fortis', // Usually your repo name.
+  organizationName: 'cappizzino', // your GitHub username
+  projectName: 'cappizzino.github.io', // your repo name (user site)
 
-  onBrokenLinks: 'warn',
+  // Fail fast in CI to avoid shipping broken navigation/routes
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
 
-  plugins: [
-    // ...
-    '@aldridged/docusaurus-plugin-lunr',
-    require.resolve('docusaurus-lunr-search')
-  ],
+  // ---- Search ----
+  // Keep one Lunr plugin to avoid conflicts/duplication.
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
+  // ---- Preset ----
   presets: [
     [
       'classic',
       {
+        // Use docs for longer-form “Lab Notes / Tutorials / Writing”
         docs: {
           sidebarPath: './sidebars.ts',
-
-          // editUrl: 'https://github.com',
-
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
 
-          lastVersion: 'current',
-
-          includeCurrentVersion: true,
-
+          // Keep docs at /docs (portfolio pages like /about live in src/pages)
           path: 'docs',
           routeBasePath: 'docs',
 
-          versions: {
-            'current': {
-              label: '1.0.0',
-            },
-          },
-
+          // Simplify: disable versioned docs for a personal site.
+          // If you want versioning later, re-enable and configure versions again.
+          lastVersion: undefined,
+          includeCurrentVersion: true,
         },
+
+        // Use blog for shorter “Engineering Notes / Updates”
         blog: {
+          blogTitle: 'Notes',
+          blogDescription:
+            'Robotics engineering notes, experiments, benchmarks, and research write-ups.',
           showReadingTime: true,
+          postsPerPage: 10,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-
-          // editUrl: 'https://github.com',
-
-          // Useful options to enforce blogging best practices
+          // Enforce decent author/tag hygiene
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -86,6 +80,7 @@ const config: Config = {
     ],
   ],
 
+  // ---- Math typesetting ----
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
@@ -96,99 +91,107 @@ const config: Config = {
     },
   ],
 
+  // ---- Theme / UI ----
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/FORTIS1.png',
+    // Social share preview image (place at: static/img/social-card.png)
+    image: 'img/social-card.png',
+
+    // Basic SEO metadata
+    metadata: [
+      {
+        name: 'keywords',
+        content:
+          'robotics, ROS2, ROS Noetic, C++, Python, perception, SLAM, navigation, manipulation, control, autonomy',
+      },
+      {name: 'author', content: 'Carlos A P Pizzino'},
+    ],
+
+    // Optional: enable if you want a “status” banner (hiring/collab/etc.)
+    // announcementBar: {
+    //   id: 'status',
+    //   content:
+    //     'Open to collaborations in robotics software (ROS, C++/Python). <a href="/about#contact">Contact</a>.',
+    //   backgroundColor: '#fafbfc',
+    //   textColor: '#091E42',
+    //   isCloseable: true,
+    // },
+
     navbar: {
-      title: 'Fortis',
+      title: 'Carlos A P Pizzino',
+      // Put a clean logo at static/img/logo.svg (optional)
       logo: {
-        alt: 'Fortis Logo',
-        src: 'img/FORTIS1.png',
-        srcDark: 'img/FORTIS1.png', // Dark mode logo
+        alt: 'Carlos A P Pizzino',
+        src: 'img/robot.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-          // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-          dropdownActiveClassDisabled: true,
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/cappizzino',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          href: 'https://fortis-project.eu',
-          label: 'Fortis',
-          position: 'right',
-        },
+        // These pages should be created under src/pages:
+        //   src/pages/about.(md|mdx|tsx)
+        //   src/pages/projects.(md|mdx|tsx)
+        //   src/pages/publications.(md|mdx|tsx)
+        // {to: '/about', label: 'About', position: 'left'},
+        {to: 'docs/projects', label: 'Projects', position: 'left'},
+        {to: 'docs/publications', label: 'Publications', position: 'left'},
+
+        // Long-form content under /docs
+        // {to: '/docs', label: 'Docs', position: 'left'},
+
+        // Short-form notes under /blog
+        {to: '/blog', label: 'Notes', position: 'left'},
+
+        // Put CV at: static/files/CV.pdf
+        {href: '/files/CV.pdf', label: 'CV', position: 'right', target: '_blank', rel: 'noopener noreferrer',},
+
+        // External profiles
+        {href: 'https://github.com/cappizzino', label: 'GitHub', position: 'right'},
+        // Replace placeholders with your real URLs (or remove)
+        {href: 'https://www.linkedin.com/in/cappizzino/', label: 'LinkedIn', position: 'right'},
+        {href: 'https://scholar.google.com/citations?user=1UAr5RMAAAAJ&hl=pt-BR', label: 'Scholar', position: 'right'},
       ],
     },
+
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Shortcuts',
-        //   items: [
-        //     {
-        //       label: 'Installation',
-        //       to: '/docs/installation',
-        //     },
-        //     {
-        //       label: 'API',
-        //       to: '/docs/api',
-        //     },
-        //     {
-        //       label: 'Simulation',
-        //       to: '/docs/simulations',
-        //     }
-        //   ],
-        // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com',
-        //     },
-        //     {
-        //       label: 'Fortis',
-        //       href: 'fortis-project.eu',
-        //     }
-        //   ],
-        // },
         {
-          title: 'Ask the developers',
+          title: 'Work',
           items: [
-            {
-              label: 'Ingeniarius',
-              href: 'https://ingeniarius.pt',
-            },
-            {
-              label: 'Fortis GitHub Team',
-              href: 'https://github.com',
-            }
+            {label: 'Projects', to: '/projects'},
+            {label: 'Publications', to: '/publications'},
+            {label: 'Docs', to: '/docs'},
+            {label: 'Notes', to: '/blog'},
+          ],
+        },
+        {
+          title: 'Profiles',
+          items: [
+            {label: 'GitHub', href: 'https://github.com/cappizzino'},
+            {label: 'LinkedIn', href: 'https://www.linkedin.com/in/cappizzino/'},
+            {label: 'Google Scholar', href: 'https://scholar.google.com/citations?user=1UAr5RMAAAAJ&hl=pt-BR'},
+            {label: 'ORCID', href: 'https://orcid.org/0000-0002-7577-3003'},
+          ],
+        },
+        {
+          title: 'Contact',
+          items: [
+            {label: 'Email', href: 'mailto:cappizzino@gmail.com'},
+            // Optional scheduling link
+            // {label: 'Calendar', href: 'https://cal.com/<your-handle>'},
           ],
         },
       ],
-      // copyright: `Copyright © ${new Date().getFullYear()} CTU MRS, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Carlos A P Pizzino`,
     },
+
     docs: {
       sidebar: {
         autoCollapseCategories: true,
       },
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['cpp', 'cmake', 'python', 'bash', 'yaml', 'json'],
     },
   } satisfies Preset.ThemeConfig,
 };
