@@ -112,4 +112,35 @@ Pizzino, C. A. P., Costa, R. R., Mitchell, D., & Vargas, P. A. (2024). NeoSLAM: 
 <Button label="📄 NeoSLAM" link="/files/2024_sensors.pdf" />{' '}
 
 
+## Long-Term Visual Robot Localization (2020)
+
+C. A. P. Pizzino, P. A. Vargas e Ramon R. Costa. “Long-Term Visual Robot Localization using Computational Models of the Neocortex”. Em: XXIII Brazilian Congress of Automation. 2020. DOI: 10.48011/asba.v2i1.1036.
+
+<div
+  style={{
+    display: 'flex',
+    gap: '1.25rem',
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+  }}
+>
+  <img
+    src="/img/pub_2020_sba.png"
+    alt="Illustration for: Article title goes here"
+    style={{
+      width: '40%',
+      minWidth: '260px',
+      borderRadius: '12px',
+    }}
+  />
+
+  <div style={{ flex: 1 }}>
+    <p>
+        Visual place recognition is an essential capability for autonomous mobile robots which use cameras as their primary sensors. Although there has been a considerable amount of research in the topic, the high degree of image variability poses extra research challenges. Following advances in neuroscience, new biologically inspired models have been developed. Inspired by the human neocortex, hierarchical temporal memory model has potential to identify temporal sequences of spatial patterns using sparse distributed representations, which are known to have high representational capacity and high tolerance to noise. These features are interesting for place recognition applications. Some authors have proposed simplifications from the original framework, such as starting from an empty set of minicolumns and increasing the number of minicolumns on demand instead of the usage of a fixed number of minicolumns whose connections adapt over time. In this paper, we investigate the usage of framework originally proposed with the aim of extending the run-time during long-term operations. Results show that the proposed architecture can encode an internal representation of the world using a fixed number of cells in order to improve system scalability.
+    </p>
+
+  </div>
+</div>
+
+<Button label="📄 VPR" link="/files/2020_sba.pdf" />{' '}
 

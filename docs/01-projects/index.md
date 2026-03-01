@@ -4,7 +4,7 @@ pagination_label: Projects
 description: Projects
 ---
 
-# Projects
+# Participation in Projects
 
 import DocCardList from '@theme/DocCardList';
 
