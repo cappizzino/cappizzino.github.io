@@ -109,7 +109,7 @@ const config: Config = {
 
         {to: '/blog', label: 'Notes', position: 'left'},
 
-        {href: '/files/CV.pdf', label: 'CV', position: 'right', target: '_blank', rel: 'noopener noreferrer'},
+        {href: '/files/CV_Carlos_AP_Pizzino.pdf', label: 'Curriculum Vitae', position: 'right', target: '_blank', rel: 'noopener noreferrer'},
 
         {href: 'https://github.com/cappizzino', label: 'GitHub', position: 'right'},
         {href: 'https://www.linkedin.com/in/cappizzino/', label: 'LinkedIn', position: 'right'},

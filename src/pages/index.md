@@ -31,7 +31,7 @@ His research interests include robot localisation and mapping based on neuroscie
 </div>
 
 <div style={{ marginTop: '1.25rem' }}>
-  <Button label="📄 CV" link="/files/CV.pdf" />{' '}
+  <Button label="📄 CV" link="/files/CV_Carlos_AP_Pizzino.pdf" />{' '}
   <Button label="🧩 Projects" link="/docs/projects" />{' '}
   <Button label="📚 Publications" link="/docs/publications" />{' '}
   <Button label="📝 Notes" link="/blog" />
