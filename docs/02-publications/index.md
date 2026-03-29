@@ -214,4 +214,4 @@ C. A. P. Pizzino, Sensorless Nonlinear Adaptive Control of an Induction Motor ba
   </div>
 </div>
 
-<Button label="📄 VPR" link="/files/2008_msc_thesis.pdf" />{' '}
+<Button label="📄 Msc Thesis" link="/files/2008_msc_thesis.pdf" />{' '}
