@@ -76,6 +76,44 @@ Couceiro, M. S., Yalcinkaya, B., Pizzino, C., & Garcia, R. B. (2024). “Establi
 
 <Button label="📄 Construction Pilot" link="/files/2024_icra.pdf" />{' '}
 
+## PhD Thesis (2024)
+
+Pizzino, C. A. P., NeoSLAM: Long-Term SLAM Using Computational Models of the Brain.
+
+
+
+<div
+  style={{
+    display: 'flex',
+    gap: '1.25rem',
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+  }}
+>
+  <img
+    src="/img/pub_2024_thesis.png"
+    alt="Illustration for: Article title goes here"
+    style={{
+      width: '40%',
+      minWidth: '260px',
+      borderRadius: '12px',
+    }}
+  />
+
+  <div style={{ flex: 1 }}>
+    <p>
+        This thesis proposes a novel and robust neuroscience-based model for vision-based Simultaneous Localization and Mapping (SLAM) capable of taking into consideration variations in scene appearance which occur due to changing environmental conditions, such as time of day, weather and season. The proposed method is a hybrid cognitive computational model named NeoSLAM (Neocortex-based SLAM), which integrates computational models of the neocortex and hippocampal-entorhinal.
+
+        NeoSLAM is inspired by neuroscience findings on the brain’s mechanisms of primates responsible for dealing with various cognitive functions, particularly those related to learning and spatial memory. The computational model of neocortex is based on a Hierarchical Temporal Memory (HTM) model which has the potential to identify temporal sequences of spatial patterns using sparse distributed representations. Meanwhile the computational model of the hippocampal-entorhinal is based on Continuous Attractor Neural Network (CANN) similar to a class of navigation neurons found in many mammals called grid cells. Additionally, a Spatial View Cells-based loop closure detector is introduced, providing a compact and powerful way to encode complex patterns in data.
+
+        The main contribution of this thesis compared to the state of the art is the usage of a neuroscience-based mechanism for online learning and adaptation, utilizing similar representation encoding processes as found in primate memory. This work is focused on real-world applications, ensuring the relevance of the findings to practical robotics. NeoSLAM has been thoroughly evaluated in terms of environmental complexity using robots deployed in the field.
+    </p>
+
+  </div>
+</div>
+
+<Button label="📄 PhD Thesis" link="/files/2024_phd_thesis.pdf" />{' '}
+
 
 ## NeoSLAM (2024)
 
