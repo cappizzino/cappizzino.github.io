@@ -182,3 +182,36 @@ C. A. P. Pizzino, P. A. Vargas e Ramon R. Costa. “Long-Term Visual Robot Local
 
 <Button label="📄 VPR" link="/files/2020_sba.pdf" />{' '}
 
+## MSc Thesis (2008)
+
+C. A. P. Pizzino, Sensorless Nonlinear Adaptive Control of an Induction Motor based on Rotor Current (2008)
+
+<div
+  style={{
+    display: 'flex',
+    gap: '1.25rem',
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+  }}
+>
+  <img
+    src="/img/pub_2008_thesis.png"
+    alt="Illustration for: Article title goes here"
+    style={{
+      width: '40%',
+      minWidth: '260px',
+      borderRadius: '12px',
+    }}
+  />
+
+  <div style={{ flex: 1 }}>
+    <p>
+        This dissertation considers the problem of designing a speed tracking control of an induction motor without mechanical speed sensors at the motor shaft, the so-called speed-sensorless control. Three designs are analysed, simulated and experimentally evaluated: i) a traditional constant V/f controller, ii) an open-loop controller based on indirect field orientation control - IFOC, and iii) an observer-controller system based also on IFOC and backstepping that achieves semiglobal exponential tracking for the full-order nonlinear dynamic model. These algorithms were implemented on a low-cost DSP based test-bed developed as part of this work.
+        
+        Moreover, a novel adaptive controller for speed-sensorless induction motor is proposed. This algorithm considers that the rotor and stator currents are measured, motivated by recent measurement technology. Combining the backstepping with nonlinear adaptive control techniques, the design guarantees global asymptotic stability for the full-order nonlinear dynamic model as well as adaptation with respect to rotor resistance variation and load torque.
+    </p>
+
+  </div>
+</div>
+
+<Button label="📄 VPR" link="/files/2008_msc_thesis.pdf" />{' '}
