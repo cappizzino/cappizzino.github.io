@@ -8,6 +8,41 @@ description: Selected peer-reviewed publications and technical reports.
 
 This page lists selected publications.
 
+# LLM-Driven Adaptive Recovery for Multi-Agent Systems in Dynamic Environments (2026)
+
+
+Yalcinkaya, B., Pizzino, C., Couceiro, M., Soares, S., & Valente, A. (2026). LLM-Driven Adaptive Recovery for Multi-Agent Systems in Dynamic Environments. In Proceedings of the 43rd International Symposium on Automation and Robotics in Construction (pp. 161-168). International Association for Automation and Robotics in Construction (IAARC). DOI: https://doi.org/10.22260/ISARC2026/0022
+
+<div
+  style={{
+    display: 'flex',
+    gap: '1.25rem',
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+  }}
+>
+  <img
+    src="/img/pub_LLM_Drive.png"
+    alt="Illustration for: Article title goes here"
+    style={{
+      width: '20%',
+      minWidth: '260px',
+      borderRadius: '12px',
+    }}
+  />
+
+  <div style={{ flex: 1 }}>
+    <p>
+    Resilience to unexpected failures is critical for multi-agent collaboration in dynamic construction environments. Existing recovery strategies often rely on rigid contingency rules or computationally expensive replanning, which struggle with heterogeneous fleets and complex dependencies. We propose an adaptive recovery framework leveraging Large Language Models (LLMs) to generate executable recovery plans by reasoning over structured task graphs and real-time agent states. The system dynamically adjusts to failures by reassigning subtasks, involving humans, or modifying synchronization. We validate the framework through (i) offline evaluation of 120 plans against seven executability criteria, and (ii) field demonstrations with a heavy-duty autonomous loader and human collaborators. Results demonstrate that the framework produces executable strategies preserving task dependencies, proving the feasibility of LLM-driven resilience in industrial fleet management.
+    
+    Keywords: Large Language Models, Autonomous Systems, Adaptive Recovery
+    </p>
+
+  </div>
+</div>
+
+<Button label="📄 LLM-Driven Adaptive Recovery" link="/files/2026_ISARC2026_1463.pdf" />{' '}
+
 ## Recent Advances in Robotic Perception for Forestry (2026)
 
 Karfakis, P.T., Araújo, A., Pizzino, C.A.P., Couceiro, M.S., Portugal, D. (2026). From Concept to Reality: Deploying 5G Enabled Robots in Complex Forest Scenarios. In: Portugal, D. (eds) Recent Advances in Robotic Perception for Forestry. Studies in Computational Intelligence, vol 1258. Springer, Cham. https://doi.org/10.1007/978-3-032-15812-3_18
