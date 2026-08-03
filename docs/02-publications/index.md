@@ -8,7 +8,42 @@ description: Selected peer-reviewed publications and technical reports.
 
 This page lists selected publications.
 
-# LLM-Driven Adaptive Recovery for Multi-Agent Systems in Dynamic Environments (2026)
+## A multimodal dataset for socially aware navigation of heavy-duty construction robots (2026)
+
+
+Pizzino CAP, Singamaneni P-T, Couceiro MS and Alami R (2026) A multimodal dataset for socially aware navigation of heavy-duty construction robots. Front. Robot. AI 13:1873168. doi: 10.3389/frobt.2026.1873168
+
+<div
+  style={{
+    display: 'flex',
+    gap: '1.25rem',
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+  }}
+>
+  <img
+    src="/img/pub_2026_fontiers.png"
+    alt="Illustration for: Article title goes here"
+    style={{
+      width: '20%',
+      minWidth: '260px',
+      borderRadius: '12px',
+    }}
+  />
+
+  <div style={{ flex: 1 }}>
+    <p>
+    Heavy-duty construction robots must navigate safely and legibly in human-populated, unstructured environments, yet existing datasets largely focus on lightweight indoor platforms or simplified interactions. This work presents a multimodal dataset for socially aware navigation and voice-based human–robot interaction collected with a retrofitted ROS-enabled Bobcat T190 compact track loader in construction-like conditions. The dataset integrates 3D LiDAR, stereo vision, GNSS-RTK, IMU, robot state, control commands, human tracking, planner outputs, audio, speech-to-text results, and rule-based natural-language understanding events. The navigation subset contains 20 complete traversals, comprising 10 trials with a conventional TEB planner and 10 paired trials using a CoHAN-based socially aware configuration in a repeatable head-on corridor scenario. The voice subset includes controlled and noisy recordings at different operator distances. Technical validation confirmed log completeness, timestamp and metadata consistency, and availability of the required multimodal streams. Reference indicators show zero collisions and close-contact events for both planners, while CoHAN increased mean minimum pedestrian clearance from 0.895 m to 1.399 m and improved predictive interaction metrics. Voice-command recognition varied from 100% at 2 m to 20% at 5 m, capturing realistic failure modes. The dataset supports reproducible benchmarking of social navigation, interaction, and safety-critical autonomy in demanding outdoor domains, and system development.
+    
+    Keywords: socially aware navigation; heavy-duty construction robots; multimodal robotics; human–robot interaction; voice-command recognition.
+    </p>
+
+  </div>
+</div>
+
+<Button label="📄 A multimodal dataset for socially aware navigation of heavy-duty construction robots" link="/files/2026_frontiers_hard_hat.pdf" />{' '}
+
+## LLM-Driven Adaptive Recovery for Multi-Agent Systems in Dynamic Environments (2026)
 
 
 Yalcinkaya, B., Pizzino, C., Couceiro, M., Soares, S., & Valente, A. (2026). LLM-Driven Adaptive Recovery for Multi-Agent Systems in Dynamic Environments. In Proceedings of the 43rd International Symposium on Automation and Robotics in Construction (pp. 161-168). International Association for Automation and Robotics in Construction (IAARC). DOI: https://doi.org/10.22260/ISARC2026/0022
@@ -43,7 +78,7 @@ Yalcinkaya, B., Pizzino, C., Couceiro, M., Soares, S., & Valente, A. (2026). LLM
 
 <Button label="📄 LLM-Driven Adaptive Recovery" link="/files/2026_ISARC2026_1463.pdf" />{' '}
 
-## Recent Advances in Robotic Perception for Forestry (2026)
+## From Concept to Reality: Deploying 5G Enabled Robots in Complex Forest Scenarios (2026)
 
 Karfakis, P.T., Araújo, A., Pizzino, C.A.P., Couceiro, M.S., Portugal, D. (2026). From Concept to Reality: Deploying 5G Enabled Robots in Complex Forest Scenarios. In: Portugal, D. (eds) Recent Advances in Robotic Perception for Forestry. Studies in Computational Intelligence, vol 1258. Springer, Cham. https://doi.org/10.1007/978-3-032-15812-3_18
 
@@ -77,7 +112,7 @@ Karfakis, P.T., Araújo, A., Pizzino, C.A.P., Couceiro, M.S., Portugal, D. (2026
 
 <Button label="📄 Recent Advances in Robotic Perception for Forestry" link="/files/2026_springer.pdf" />{' '}
 
-## Multi-Drone System (2025)
+## A Multi-Drone System Proof of Concept for Forestry Applications (2025)
 
 Araújo, A. G., Pizzino, C. A. P., Couceiro, M. S., & Rocha, R. P. (2025). A Multi-Drone System Proof of Concept for Forestry Applications. Drones, 9(2), 80. https://doi.org/10.3390/drones9020080
 
@@ -111,7 +146,7 @@ Araújo, A. G., Pizzino, C. A. P., Couceiro, M. S., & Rocha, R. P. (2025). A Mul
 
 <Button label="📄 Multi-Drone System" link="/files/2025_drones.pdf" />{' '}
 
-## Construction Pilot (2024)
+## Establishing an On-Site Construction Pilot for Collaboration Between Humans and Heavy-Duty Robots (2024)
 
 Couceiro, M. S., Yalcinkaya, B., Pizzino, C., & Garcia, R. B. (2024). “Establishing an On-Site Construction Pilot for Collaboration Between Humans and Heavy-Duty Robots.”, https://doi.org/10.22260/ICRA2024/0003.
 
@@ -179,7 +214,7 @@ Pizzino, C. A. P., NeoSLAM: Long-Term SLAM Using Computational Models of the Bra
 
 <Button label="📄 PhD Thesis" link="/files/2024_phd_thesis.pdf" />{' '}
 
-## NeoSLAM (2024)
+## NeoSLAM: Long-Term SLAM Using Computational Models of the Brain. (2024)
 
 Pizzino, C. A. P., Costa, R. R., Mitchell, D., & Vargas, P. A. (2024). NeoSLAM: Long-Term SLAM Using Computational Models of the Brain. Sensors, 24(4), 1143. https://doi.org/10.3390/s24041143
 
@@ -211,7 +246,7 @@ Pizzino, C. A. P., Costa, R. R., Mitchell, D., & Vargas, P. A. (2024). NeoSLAM: 
 
 <Button label="📄 NeoSLAM" link="/files/2024_sensors.pdf" />{' '}
 
-## Long-Term Visual Robot Localization (2020)
+## Long-Term Visual Robot Localization using Computational Models of the Neocortex (2020)
 
 C. A. P. Pizzino, P. A. Vargas e Ramon R. Costa. “Long-Term Visual Robot Localization using Computational Models of the Neocortex”. Em: XXIII Brazilian Congress of Automation. 2020. DOI: 10.48011/asba.v2i1.1036.
 
