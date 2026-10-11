@@ -2,13 +2,30 @@
 title: FORTIS
 pagination_label: FORTIS
 description: Multi-Modal and Multi-Aspect Holistic Human-Robot Interaction.
+slug: /projects/fortis
+hide_title: true
 ---
 
-# FORTIS
+import cv from '@site/src/data/cv.json';
 
-* FORTIS – Multi-Modal and Multi-Aspect Holistic Human-Robot Interaction.
-* Horizon Europe Programme No. 101135707.
-* January 2024 – December 2027, Ingeniarius Ltd.
+export const project = cv.sections
+  .find((section) => section.id === 'projects')
+  .entries.find((entry) => entry.id === 'fortis');
+
+<header>
+  <h1>{project.acronym.replace(/:\s*$/, '').trim()}</h1>
+  <p><strong>{project.title}</strong></p>
+  <p>{project.funding}</p>
+  <p><strong>{project.organisation}</strong></p>
+
+  <p>{project.date} · {project.location}</p>
+  {project.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+  {project.bullets?.length > 0 && (
+    <ul>
+      {project.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
+    </ul>
+  )}
+</header>
 
 ---
 ## Material handling in construction

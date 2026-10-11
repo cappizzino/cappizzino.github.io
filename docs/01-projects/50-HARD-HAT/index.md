@@ -2,13 +2,31 @@
 title: HARD-HAT
 pagination_label: HARD-HAT
 description: Socially aware navigation for safer heavy-duty construction.
+slug: /projects/hardhat
+hide_title: true
 ---
 
-# HARD-HAT
+import cv from '@site/src/data/cv.json';
 
-* HARD-HAT – Socially aware navigation for safer heavy-duty construction.
-* Collaborative project of the European euROBIN project / Horizon Europe Programme Project 101070596.
-* June 2025 – February 2026, Ingeniarius Lda.
+export const project = cv.sections
+  .find((section) => section.id === 'projects')
+  .entries.find((entry) => entry.id === 'hardhat');
+
+<header>
+  <h1>{project.acronym.replace(/:\s*$/, '').trim()}</h1>
+  <p><strong>{project.title}</strong></p>
+  <p>{project.funding}</p>
+  <p><strong>{project.organisation}</strong></p>
+
+  <p>{project.date} · {project.location}</p>
+  {project.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+  {project.bullets?.length > 0 && (
+    <ul>
+      {project.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
+    </ul>
+  )}
+</header>
+
 ---
 
 <img

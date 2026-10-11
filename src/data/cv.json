@@ -1,0 +1,402 @@
+{
+  "name": "Carlos Alexandre Pontes Pizzino",
+  "headline": "Ph.D. in Electrical Engineering (Robotics and Control Systems) | Robotics Engineer",
+  "nationality": "Italian Brazilian",
+  "location": "Porto, Portugal",
+  "contact": [
+    { "label": "+351 912 116 692", "href": "tel:+351912116692" },
+    { "label": "cappizzino@gmail.com", "href": "mailto:cappizzino@gmail.com" },
+    {
+      "label": "linkedin.com/in/cappizzino",
+      "href": "https://www.linkedin.com/in/cappizzino/"
+    },
+    { "label": "cappizzino.github.io", "href": "https://cappizzino.github.io" }
+  ],
+  "sections": [
+    {
+      "id": "summary",
+      "title": "Professional summary",
+      "paragraphs": [
+        "I design, integrate, and validate autonomous robotic systems for complex real-world environments. My work combines robotics software architecture, SLAM, multisensor fusion, navigation, perception, and decision-making, with a strong focus on systems that must operate reliably outside controlled laboratory conditions. I hold a PhD in Electrical Engineering, specialising in Control, Automation and Robotics, and bring more than 15 years of experience across applied research, systems engineering, technical leadership, and field deployment. My expertise lies in defining and leading end-to-end autonomy architectures, transforming advanced research components into coherent, robust, and maintainable robotic systems. This includes managing system-level trade-offs across perception, localisation, navigation, decision-making, communications, computational constraints, and operational safety."
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "entries": [
+        {
+          "title": "Robotics Researcher",
+          "organisation": "Ingeniarius LDA",
+          "date": "Oct 2022 – Ongoing",
+          "location": "Valongo, Porto, Portugal",
+          "bullets": [
+            "Software programming (ROS1/ROS2, C++, Python and Bash).",
+            "Algorithm implementations used in robotics: SLAM, Localisation, Mapping, Navigation, Planning, and Decision-making.",
+            "Implementation of new robotics system architecture and methodologies: scientific paper contribution.",
+            "Systems validation and maturation."
+          ]
+        },
+        {
+          "title": "Visiting Researcher",
+          "organisation": "Heriot-Watt University, Robotics Laboratory",
+          "date": "Feb 2022 – Apr 2022",
+          "location": "Edinburgh, Scotland, UK",
+          "bullets": [
+            "Performed research on Simultaneous Localization and Mapping (SLAM) systems using a brain-inspired model.",
+            "Developed algorithms on the Clearpath Husky robot using ROS, Python, C++, OpenCV and PyTorch."
+          ]
+        },
+        {
+          "title": "Electronics Research Engineer",
+          "organisation": "Brazilian Air Force (FAB), Department of Airspace Control (DECEA), Institute of Airspace Control (ICEA)",
+          "date": "Jul 2020 – Sep 2022",
+          "location": "São José dos Campos, Brazil",
+          "bullets": [
+            "Research Team Member of the ‘Flight inspection of radio navigational aids using UAS’ project.",
+            "Certification Coordinator of the Ground Based Augmentation System (GBAS) system in Brazil.",
+            "Project Management Office (PMO) Coordinator.",
+            "Project analyst and Innovation manager."
+          ]
+        },
+        {
+          "title": "Electronics Engineer",
+          "organisation": "Brazilian Air Force (FAB), Department of Airspace Control (DECEA), Aeronautical Electronic Material Facility (PAME-RJ)",
+          "date": "Nov 2009 – Jul 2020",
+          "location": "Rio de Janeiro, Brazil",
+          "bullets": [
+            "Metrology Laboratory manager.",
+            "Provided technical support to other departments as required for solving technical issues.",
+            "Defined specifications and generated reports.",
+            "Developed, validated and maintained LabVIEW code."
+          ]
+        },
+        {
+          "title": "Research Fellow in Robotics",
+          "organisation": "GSCAR Lab – Electrical Engineering Department, Federal University of Rio de Janeiro",
+          "date": "Jan 2007 – Jan 2010",
+          "location": "Rio de Janeiro, Brazil",
+          "bullets": [
+            "Participated in the definition and development of robotic platforms.",
+            "Developed electronic circuits with microcontrollers, sensors, electrical actuators and bus interfaces.",
+            "Developed real-time control systems (MATLAB/Simulink)."
+          ]
+        },
+        {
+          "title": "Electronics Engineer (Internship)",
+          "organisation": "Infineon Technologies AG",
+          "date": "Apr 2005 – Aug 2005",
+          "location": "Munich, Germany",
+          "bullets": [
+            "Developed firmware for motor control, sensor acquisition and bus communication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "entries": [
+        {
+          "title": "Ph.D. in Electrical Engineering",
+          "organisation": "Federal University of Rio de Janeiro, Brazil",
+          "date": "2017 – 2024",
+          "paragraphs": [
+            "Area: Control, Automation and Robotics.",
+            "Thesis: ‘NeoSLAM: Long-term Visual SLAM using Computational Models of the Brain’."
+          ]
+        },
+        {
+          "title": "M.Sc. in Electrical Engineering",
+          "organisation": "Federal University of Rio de Janeiro, Brazil",
+          "date": "2006 – 2008",
+          "paragraphs": [
+            "Area: Control, Automation and Robotics.",
+            "Thesis: ‘Sensorless Nonlinear Adaptive Control of an Induction Motor based on Rotor Current’."
+          ]
+        },
+        {
+          "title": "PGDip in Automation Engineering",
+          "organisation": "SENAI Institute and Prominp (O&G Brazilian Program)",
+          "date": "2008 – 2010",
+          "paragraphs": [
+            "Work: ‘Dynamic System Identification Using Neural Networks’."
+          ]
+        },
+        {
+          "title": "B.Sc. in Electronics Industrial Engineering",
+          "organisation": "Federal Center of Technological Education (CEFET/RJ), Brazil",
+          "date": "2001 – 2006",
+          "paragraphs": [
+            "Work: ‘Speed Control of Three Phase Induction Motor with CAN Bus Interface’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "entries": [
+        {
+          "id": "ideal",
+          "acronym": "I-DEAL",
+          "title": "I-DEAL: Smarter Geospatial Data for a Sustainable Europe",
+          "funding": "EU-funded Horizon Europe, Grant agreement ID: 101236355",
+          "organisation": "Ingeniarius LDA",
+          "date": "Jul 2025 – Ongoing",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "I-DEAL is an EU-funded project supported by the Marie Skłodowska-Curie Actions (MSCA) – Staff Exchanges, advancing geospatial technologies for the Green Deal and climate change mitigation.",
+            "I undertook a one-month secondment at Fondazione Bruno Kessler (FBK) in Trento, Italy.",
+            "The objectives were to investigate a modular multimodal SLAM frontend combining LiDAR, IMU, stereo vision and GNSS-RTK and develop sensor-trust indicators for reliable localisation and mapping."
+          ]
+        },
+        {
+          "id": "remora",
+          "acronym": "REMORA",
+          "title": "REMORA: Swarm Robotics for the Improvement and Observation of Aquatic Resources",
+          "funding": "Compete 2030 Programme (ANI) COMPETE2030-FEDER-01429400",
+          "organisation": "Ingeniarius LDA",
+          "date": "Jul 2025 – Ongoing",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "REMORA is a project focused on improving aquatic resource management in Portugal and the EU through swarm robotics and digital twins, targeting TRL 6 for the blue economy.",
+            "As a robotic engineer, I develop software for swarm robotic systems, focusing on coordination, communication, and collective behaviour in distributed robotics."
+          ]
+        },
+        {
+          "id": "hardhat",
+          "acronym": "HARD-HAT",
+          "title": "HARD-HAT: Socially aware navigation for safer heavy-duty construction",
+          "funding": "Collaborative project of the European euROBIN project / Horizon Europe Programme Project 101070596",
+          "organisation": "Ingeniarius LDA",
+          "date": "Jun 2025 – May 2026",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "HARD-HAT aims to integrate the Cooperative Human-Aware Navigation (CoHAN) framework for controlling heavy robots, alongside rule-based Natural Language Understanding.",
+            "As a Senior Robotics Engineer, I lead the integration of the CoHAN planner and rule-based NLU modules on heavy robotic platforms."
+          ]
+        },
+        {
+          "id": "criarte",
+          "acronym": "CRIARTE",
+          "title": "CRIARTE: Construction with Intelligent Robotics and Revolutionary Architecture of Emerging Technologies",
+          "funding": "Compete 2030 Programme (ANI) COMPETE2030-FEDER-01192200) ",
+          "organisation": "Ingeniarius LDA",
+          "date": "Jan 2025 – Ongoing",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "CRIARTE integrates mobile robotics, Artificial Intelligence, Digital Twins, and augmented reality within the construction sector to enable large-scale autonomous robots to collaborate with humans.",
+            "As a robotic engineer, I design and implement real-time navigation algorithms for dynamic environments using C++, Python, and ROS Noetic, integrating mapping, localisation, and perception."
+          ]
+        },
+        {
+          "id": "fortis",
+          "acronym": "FORTIS",
+          "title": "FORTIS: Multi-Modal and Multi-Aspect Holistic Human-Robot Interaction",
+          "funding": "EU-funded Horizon Europe, Grant agreement ID: 101135707",
+          "organisation": "Ingeniarius LDA",
+          "date": "Jan 2024 – Ongoing",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "FORTIS is an EU-funded project focused on enabling long-term, human-like interaction between robots and humans.",
+            "As a robotic engineer, I design and implement navigation and perception algorithms for an Autonomous Pallet Loader using C++, Python, and ROS, enabling real-time obstacle avoidance and route optimisation in dynamic environments."
+          ]
+        },
+        {
+          "id": "openswarm",
+          "acronym": "OPENSWARM",
+          "title": "OpenSwarm: Orchestration and Programming ENergy-aware and collaborative Swarms With AI-powered Reliable Methods",
+          "funding": "EU-funded Horizon Europe, Grant agreement ID: 101093046",
+          "organisation": "Ingeniarius LDA",
+          "date": "Jan 2023 – May 2025",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "OpenSwarm is an EU-funded project advancing collaborative and distributed intelligent node technologies.",
+            "As a robotic engineer, I integrated ROS-based autonomy software with PX4/Pixhawk flight controllers via MAVROS/MAVLink, supporting autonomous waypoint navigation, mission execution, telemetry monitoring, and multi-UAV operations. Participated actively in consortium meetings and EU reviews."
+          ]
+        },
+        {
+          "id": "ferox",
+          "acronym": "FEROX",
+          "title": "FEROX: Fostering and Enabling AI, Data and Robotics Tech for Supporting Human Workers in Harvesting Wild Food",
+          "funding": "EU-funded Horizon Europe, Grant agreement ID: 101070440",
+          "organisation": "Ingeniarius LDA",
+          "date": "Sep 2022 – Aug 2025",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "FEROX is an EU-funded project applying AI, data, and robotics to improve working conditions for wild fruit harvesters and optimise harvesting operations.",
+            "As a robotic engineer, I developed UAV-based mapping, localisation, and perception algorithms using PX4/Pixhawk integration through ROS/MAVROS and the CTU Multi-Robot Systems framework."
+          ]
+        },
+        {
+          "id": "safeforest",
+          "acronym": "SAFEFOREST",
+          "title": "SafeForest: Semi-Autonomous Robotic System for Forest Cleaning and Fire Prevention",
+          "organisation": "Ingeniarius LDA",
+          "funding": "Portugal 2020 CENTRO-01-0247-FEDER-045931",
+          "date": "Oct 2022 – Jul 2023",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "SafeForest is a project developing advanced robotic systems for forest fire prevention and urban–forest interface monitoring.",
+            "As a robotic engineer, I implemented tightly coupled LiDAR inertial odometry with smoothing and real-time mapping for robot state estimation."
+          ]
+        },
+        {
+          "title": "NeoSLAM: Long-term Visual SLAM using Computational Models of the Brain",
+          "organisation": "Federal University of Rio de Janeiro and Heriot-Watt University",
+          "date": "Dec 2019 – Mar 2024",
+          "location": "Rio de Janeiro / Edinburgh",
+          "bullets": [
+            "NeoSLAM is a novel hybrid computational model which is inspired by the hippocampal–neocortical network for Visual Place Recognition used in SLAM and (re-)localization systems in changing conditions.",
+            "I work on the development of the model and software based on Python, C++, MATLAB, ROS/Gazebo with the Clearpath Husky robot."
+          ]
+        },
+        {
+          "title": "Flight inspection of NavAids using UAS",
+          "organisation": "Brazilian Air Force – Institute of Airspace Control",
+          "date": "Jul 2020 – Oct 2022",
+          "location": "São José dos Campos",
+          "bullets": [
+            "The aim of this project is to analyse the use of Unmanned Aerial Vehicles (UAV) for field measurements required for commissioning and regular maintenance of Instrument Landing Systems (ILS).",
+            "In this project, I developed MATLAB codes for path planning."
+          ]
+        },
+        {
+          "title": "LAICA",
+          "organisation": "Brazilian Air Force – Department of Airspace Control",
+          "date": "Jan 2010 – Dec 2011",
+          "location": "Rio de Janeiro",
+          "bullets": [
+            "LAICA is an automatic calibration system which allows calibration of a large number of electrical sourcing and measuring instruments. It drastically reduced the calibration time of many electrical testing equipment and electrical meters.",
+            "In this project, I managed a team of two Electronics Engineers and three technicians. Besides, I developed software based on LabVIEW. In 2018, I was recognised for exemplary performance and contributions to the Brazilian Airspace Control."
+          ]
+        },
+        {
+          "title": "DIANE",
+          "organisation": "ARES/COPPETEC/GSCAR",
+          "date": "Jan 2009 – Jan 2010",
+          "location": "Rio de Janeiro",
+          "bullets": [
+            "DIANE is an Explosive Ordnance Disposal Robot and was constituted of tracks for locomotion, arms to climb and descend stairs, a robotic manipulator of 3 DOF to manipulate the explosive, and cameras for operation.",
+            "I worked on the electronic architecture based on a Puma PC/104-Plus single board computer with QNX, EPOS positioning controllers by Maxon and CANopen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certificates",
+      "title": "Certificates",
+      "entries": [
+        {
+          "title": "LabVIEW Associate Developer",
+          "organisation": "National Instruments",
+          "date": "2011 – 2013",
+          "paragraphs": ["SN: 100-311-2784"]
+        },
+        {
+          "title": "IELTS Certificate",
+          "organisation": "British Council",
+          "date": "Oct 2019",
+          "paragraphs": ["CEFR Level B2"]
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "paragraphs": ["Self-assessed proficiency on a five-point scale."],
+      "ratings": [
+        { "label": "Portuguese (native)", "value": 5 },
+        { "label": "English (IELTS B2)", "value": 4 },
+        { "label": "Italian", "value": 2 },
+        { "label": "German", "value": 1 }
+      ]
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "entries": [
+        {
+          "title": "MATLAB and Simulink Fundamentals and Simulink for Aerospace System Design",
+          "organisation": "Opencadd",
+          "date": "Nov 2020 – Dec 2020",
+          "location": "São José dos Campos, Brazil"
+        },
+        {
+          "title": "Mastering ROS Robot Manipulators",
+          "organisation": "The Construct",
+          "date": "Feb 2020",
+          "location": "Barcelona, Spain"
+        },
+        {
+          "title": "LabVIEW Core 1, 2 and 3 and Connectivity",
+          "organisation": "National Instruments",
+          "date": "Dec 2011",
+          "location": "São Paulo, Brazil"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "paragraphs": ["Self-assessed proficiency on a five-point scale."],
+      "ratings": [
+        { "label": "ROS, ROS2", "value": 4 },
+        { "label": "C/C++, Python, Linux, Bash", "value": 4 },
+        { "label": "MATLAB/Simulink", "value": 4 },
+        { "label": "LabVIEW", "value": 3 },
+        { "label": "LaTeX", "value": 3 }
+      ]
+    },
+    {
+      "id": "awards",
+      "title": "Honours & awards",
+      "entries": [
+        {
+          "title": "Federal Civilian Employee of the Year Award",
+          "date": "2018",
+          "paragraphs": [
+            "Aeronautical Electronic Material Facility (PAME-RJ), Department of Airspace Control’s organisation."
+          ]
+        },
+        {
+          "title": "I Technology Innovation Awards",
+          "organisation": "Department of Airspace Control, Brazil",
+          "date": "2016",
+          "paragraphs": [
+            "The work ‘Development of a new automatic calibration method for Radio Frequency Plug-In Elements’ was selected as 1st place with honour mention."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "achievements",
+      "title": "Most proud of",
+      "entries": [
+        {
+          "title": "Software patent: LAICA",
+          "paragraphs": ["BR512013000501-9"]
+        },
+        { "title": "B.Sc. Diploma", "paragraphs": ["Final mark 81/100"] }
+      ]
+    },
+    {
+      "id": "strengths",
+      "title": "Strengths",
+      "tags": [
+        "Creative",
+        "Proactive",
+        "Collaborative attitude",
+        "Control systems design",
+        "Robotics",
+        "SLAM",
+        "ROS",
+        "C/C++",
+        "Python",
+        "Computer vision",
+        "Hands-on experience",
+        "Deploying in real robots"
+      ]
+    }
+  ]
+}

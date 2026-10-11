@@ -2,13 +2,30 @@
 title: OpenSwarm
 pagination_label: OpenSwarm
 description: Orchestration and Programming Energy-aware and Collaborative Swarms.
+slug: /projects/openswarm
+hide_title: true
 ---
 
-# OpenSwarm
+import cv from '@site/src/data/cv.json';
 
-* OpenSwarm – Orchestration and Programming Energy-aware and Collaborative Swarms.
-* Horizon Europe Programme No. 101093046.
-* January 2023 – April 2026, Ingeniarius Lda.
+export const project = cv.sections
+  .find((section) => section.id === 'projects')
+  .entries.find((entry) => entry.id === 'openswarm');
+
+<header>
+  <h1>{project.acronym.replace(/:\s*$/, '').trim()}</h1>
+  <p><strong>{project.title}</strong></p>
+  <p>{project.funding}</p>
+  <p><strong>{project.organisation}</strong></p>
+
+  <p>{project.date} · {project.location}</p>
+  {project.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+  {project.bullets?.length > 0 && (
+    <ul>
+      {project.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
+    </ul>
+  )}
+</header>
 
 ---
 
