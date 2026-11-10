@@ -1,7 +1,7 @@
 {
   "name": "Carlos Alexandre Pontes Pizzino",
   "headline": "Ph.D. in Electrical Engineering (Robotics and Control Systems) | Robotics Engineer",
-  "nationality": "Italian Brazilian",
+  "nationality": "Brazilian, Italian",
   "location": "Porto, Portugal",
   "contact": [
     { "label": "+351 912 116 692", "href": "tel:+351912116692" },
@@ -31,7 +31,7 @@
           "location": "Valongo, Porto, Portugal",
           "bullets": [
             "Software programming (ROS1/ROS2, C++, Python and Bash).",
-            "Algorithm implementations used in robotics: SLAM, Localisation, Mapping, Navigation, Planning, and Decision-making.",
+            "Algorithm implementations used in field robotics: SLAM, Localisation, Mapping, Navigation, Planning, and Decision-making.",
             "Implementation of new robotics system architecture and methodologies: scientific paper contribution.",
             "Systems validation and maturation."
           ]
@@ -137,6 +137,35 @@
       "title": "Projects",
       "entries": [
         {
+          "id": "jarvis",
+          "acronym": "JARVIS",
+          "title": "JARVIS: TRUST-SLAM - Trustworthy Multi-Sensor SLAM for Robust Self-Localisation and Mapping in Semi-Outdoor Process Plant Environments",
+          "funding": "EU-funded Horizon Europe, Grant Agreement ID: 101135708",
+          "organisation": "Ingeniarius LDA",
+          "date": "2026 – Ongoing",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "TRUST-SLAM is developed under the EU-funded JARVIS project (Open Call 2), addressing robust self-localisation and mapping for autonomous mobile robots operating in challenging industrial environments.",
+            "I serve as Lead SLAM and Multi-Sensor Fusion Engineer, responsible for developing and integrating LiDAR-inertial/visual odometry, adaptive sensor fusion, fixed-lag optimisation, and GNSS-RTK and wheel-odometry constraints.",
+            "The objective is to develop a modular ROS 2/Nav2-compatible localisation and mapping system incorporating a Sensor Trust Manager to dynamically assess sensor reliability, reduce long-term drift, and improve localisation robustness in GNSS-degraded industrial environments.",
+            "The solution will be integrated and validated on the JARVIS robotic platform at SINTEF in Trondheim, Norway."
+          ]
+        },
+        {
+          "id": "heroic",
+          "acronym": "HEROIC",
+          "title": "HEROIC: Human Ergonomics for Robotics Operations in Intelligent Construction",
+          "funding": "EU-funded ARISE Project – 2nd Open Call",
+          "organisation": "Ingeniarius LDA",
+          "date": "2026 – Ongoing",
+          "location": "Porto, Portugal",
+          "bullets": [
+            "HEROIC is an EU-funded project under the ARISE 2nd Open Call, developed in collaboration with Garcia Garcia, aiming to improve ergonomics, safety, and productivity in construction through human-centred robotic assistance and multimodal human–robot interaction.",
+            "As a Robotics Researcher, I contribute to robotic system integration and the development of speech-based human–robot interaction capabilities for a robotic telehandler performing collaborative construction tasks.",
+            "I developed and integrated ROS 2 speech recognition and command-processing modules, combining Faster-Whisper, Silero Voice Activity Detection, audio preprocessing, and Damerau–Levenshtein-based command matching to convert spoken Portuguese instructions into structured robot commands."
+          ]
+        },
+        {
           "id": "ideal",
           "acronym": "I-DEAL",
           "title": "I-DEAL: Smarter Geospatial Data for a Sustainable Europe",
@@ -148,19 +177,6 @@
             "I-DEAL is an EU-funded project supported by the Marie Skłodowska-Curie Actions (MSCA) – Staff Exchanges, advancing geospatial technologies for the Green Deal and climate change mitigation.",
             "I undertook a one-month secondment at Fondazione Bruno Kessler (FBK) in Trento, Italy.",
             "The objectives were to investigate a modular multimodal SLAM frontend combining LiDAR, IMU, stereo vision and GNSS-RTK and develop sensor-trust indicators for reliable localisation and mapping."
-          ]
-        },
-        {
-          "id": "remora",
-          "acronym": "REMORA",
-          "title": "REMORA: Swarm Robotics for the Improvement and Observation of Aquatic Resources",
-          "funding": "Compete 2030 Programme (ANI) COMPETE2030-FEDER-01429400",
-          "organisation": "Ingeniarius LDA",
-          "date": "Jul 2025 – Ongoing",
-          "location": "Porto, Portugal",
-          "bullets": [
-            "REMORA is a project focused on improving aquatic resource management in Portugal and the EU through swarm robotics and digital twins, targeting TRL 6 for the blue economy.",
-            "As a robotic engineer, I develop software for swarm robotic systems, focusing on coordination, communication, and collective behaviour in distributed robotics."
           ]
         },
         {
@@ -212,7 +228,8 @@
           "location": "Porto, Portugal",
           "bullets": [
             "OpenSwarm is an EU-funded project advancing collaborative and distributed intelligent node technologies.",
-            "As a robotic engineer, I integrated ROS-based autonomy software with PX4/Pixhawk flight controllers via MAVROS/MAVLink, supporting autonomous waypoint navigation, mission execution, telemetry monitoring, and multi-UAV operations. Participated actively in consortium meetings and EU reviews."
+            "As a robotic engineer, I integrated ROS-based autonomy software with PX4/Pixhawk flight controllers via MAVROS/MAVLink, supporting autonomous waypoint navigation, mission execution, telemetry monitoring, and multi-UAV operations.", 
+            "Participated actively in consortium meetings and EU reviews."
           ]
         },
         {
